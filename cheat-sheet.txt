@@ -1,0 +1,73 @@
+/* See LICENSE file for copyright and license details. */
+
+	  *******************     GENERAL KEYBINDS     *****************************************
+
+          *************     These are hard-coded in config.h     *******************************  
+
+	  MODIFIERS               KEY			FUNCTION
+
+	  Super                   d			run dmenu
+	  Super                   b			toggle bar on/off
+
+	  Super                   Space                 toggle tiled/floating layout
+          Super			  Tab			toggle between current/last view
+
+	  Super			  {1...9}		switch to numbered view
+          Super|Shift		  {1...9}               move window to numbered view
+
+
+	  Super                   q			quit focused window
+	  Super                   F2			quit swm session
+
+	  Super                   Return		spawn st
+	  Super|Shift             Return		flip master window and top window from stack
+		
+	  Super                   j			focus window clockwise
+	  Super                   k			focus window counterclockwise
+
+	  Super                   0			toggle window gaps on/off
+	  Super|Shift             0			default window gaps
+
+	  Super                   h			increase all window gaps
+	  Super                   l			decrease all window gaps
+
+	  Super                   y			increase horizontal window gaps
+	  Super			  o			decrease horizontal window gaps
+
+	  Super|Control           y      		increase vertical window gaps
+	  Super|Control           o      		decrease vertical window gaps
+
+	  Super|Shift             y			increase external window gaps
+	  Super|Shift             o			decrease external window gaps
+
+	  Super|Shift             h			increase outer window gaps
+	  Super|Shift             l			decrease outer window gaps
+
+	  Super|Control           h			increase inner window gaps
+	  Super|Control           l			decrease inner window gaps
+
+	  Super|Alt               y			increase upper window gaps
+	  Super|Alt               o			decrease upper window gaps
+
+          *******************     USER-SPECIFIC KEYBINDS     ******************************************
+
+	  *************     These can be edited in ~/.config/sxhkd/sxhkdrc     ************************
+
+	  Alt			  a			Pulse Audio mixer
+	  Alt			  b			Chromium browswer
+	  Alt			  f			Pcmanfm file manager
+
+	  Alt			  n			Nitrogen wallpaper switcher
+	  Alt 			  s			Spotify desktop app
+
+	  Alt			  t			Gedit
+          Alt			  v			VSCodium
+
+          Alt 			  h			Open this cheat sheet in gedit
+	  Alt 			  x			Open sxhkdrc in gedit
+
+	  Alt 			  Return		Termite terminal emulator
+	  Alt|Shift		  s			Reload sxhkd
+
+	  Shift			  Print			Take a screenshot with gnome-screenshot
+          			  Print			Take a screenshot with scrot

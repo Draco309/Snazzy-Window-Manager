@@ -1,0 +1,62 @@
+# ~/.config/sxhkd/sxhkdrc
+
+# ALT KEYBINDS 
+##############
+
+# Audio mixer
+alt + a
+    pavucontrol
+
+# Browser
+alt + b
+    chromium
+
+# File Manager
+alt + f
+    pcmanfm
+
+# Hotkey Cheat Sheet
+alt + h
+    gedit /home/user/swm/cheat-sheet.txt
+
+# Nitrogen
+alt + n
+    nitrogen
+
+# Spotify
+alt + s
+    spotify
+
+# Text editor
+alt + t
+    gedit
+
+# VSCodium
+alt + v
+    vscodium
+
+# Simple X Hotkey Daemon config
+alt + x
+    gedit /home/user/.config/sxhkd/sxhkdrc
+
+# Terminal Emulator
+alt + Return
+    termite
+
+# RELOAD
+########
+
+# Reload sxhkd:
+alt + shift + s
+      pkill -USR1 -x sxhkd
+
+# SCREENSHOTS
+#############
+
+# Scrot
+Print
+    scrot
+
+# Gnome-Screenshot
+shift + Print
+      gnome-screenshot -i

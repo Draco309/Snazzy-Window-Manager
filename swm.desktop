@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=SWM Session
+Comment=The Snazzy Window Manager
+Exec=swm
+Icon=
+Type=Application
+DesktopNames=SWM
