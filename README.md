@@ -6,7 +6,7 @@ A highly opinionated fork of DWM : https://dwm.suckless.org/
 
 Q. Why did you fork DWM rather than make your own spin of it?
 
-A. Because I did more than just patch dwm and make minor aesthetic changes to the appearance of it. As soon as I started REMOVING functionality that I would never use in order to make the keybinds simpler and the codebase smaller, I knew that I couldn't continue to call my build "DWM". By forking it, you can now install swm on your linux box and any existing DWM build on there won't be affected.
+A. Because I did more than just patch dwm and make minor aesthetic changes to the appearance of it. As soon as I started REMOVING functionality that I would never use in order to make the keybinds simpler and the codebase smaller, I knew that I couldn't continue to call my build "DWM". By forking it, you can now install SWM on your linux box and any existing DWM build on there won't be affected.
 
 Q. What changes did you make to the default DWM build?
 
