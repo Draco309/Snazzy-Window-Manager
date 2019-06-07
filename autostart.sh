@@ -1,6 +1,6 @@
-## ~/autostart.sh
+#!/bin/sh
 
-#! /bin/bash
+# ~/autostart.sh
 
 # Compositor
 compton --config ~/.config/compton/compton.conf &
@@ -8,30 +8,18 @@ compton --config ~/.config/compton/compton.conf &
 # Restore wallpaper
 nitrogen --restore &
 
-# Hotkey daemon
+# For keyboard volume controls
+xfce4-volumed-pulse &
+
+# Simple X Hotkey daemon
 sxhkd &
 
-dte(){
-  dte="$(date +"%A, %B %d | 🕒 %l:%M%p")"
-  echo -e "$dte"
-}
-
-mem(){
-  mem=`free | awk '/Mem/ {printf "%d MiB/%d MiB\n", $3 / 1024.0, $2 / 1024.0 }'`
-  echo -e "🖪 $mem"
-}
-
-cpu(){
-  read cpu a b c previdle rest < /proc/stat
-  prevtotal=$((a+b+c+previdle))
-  sleep 0.5
-  read cpu a b c idle rest < /proc/stat
-  total=$((a+b+c+idle))
-  cpu=$((100*( (total-prevtotal) - (idle-previdle) ) / (total-prevtotal) ))
-  echo -e "💻 $cpu% cpu"
-}
-
-while true; do
-     xsetroot -name "$(cpu) | $(mem) | $(dte)"
-     sleep 10s    # Update time every ten seconds
+while true ; do
+   if acpi -a | grep off-line > /dev/null; then
+       xsetroot -name "bat: $( acpi -b | awk '{ print $4 }' | tr -d ',' ) | vol: $(amixer get Master | tail -1 | awk '{ print $5}' | tr -d '[]') | $(date +"%a %b %d %R")"
+   else
+       xsetroot -name "vol $(amixer get Master | tail -1 | awk '{ print $5}' | tr -d '[]') | $(date +" %a, %b %d | %R") hrs  "
+   fi
+   # NOTE: You may tweak this value to get faster refresh.
+   sleep 5s 
 done &
