@@ -15,7 +15,6 @@
 	  Super			  {1...9}		switch to numbered view
           Super|Shift		  {1...9}               move window to numbered view
 
-
 	  Super                   q			quit focused window
 	  Super                   F2			quit swm session
 
