@@ -53,7 +53,6 @@
 
 	  *************     These can be edited in ~/.config/sxhkd/sxhkdrc     ************************
 
-	  Alt			  a			Pulse Audio mixer
 	  Alt			  b			Chromium browswer
 	  Alt			  f			Pcmanfm file manager
 
@@ -71,3 +70,7 @@
 
 	  Shift			  Print			Take a screenshot with gnome-screenshot
           			  Print			Take a screenshot with scrot
+				  
+	  Shift                   Up                    Increase volume
+	  Shift                   Down                  Decrease volume
+                                  F4                    Toggle mute/unmute
