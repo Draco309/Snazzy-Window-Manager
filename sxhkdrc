@@ -1,11 +1,40 @@
 # ~/.config/sxhkd/sxhkdrc
 
+# RELOAD
+########
+
+# Reload sxhkd:
+alt + shift + s
+      pkill -USR1 -x sxhkd
+
+# PULSE AUDIO
+#############
+
+# Volume Up
+shift + Up
+      pactl -- set-sink-volume 0 +10%
+
+# Volume Down
+shift + Down
+      pactl -- set-sink-volume 0 -10%
+
+# Toggle Mute/Unmute
+F4
+  pactl -- set-sink-mute 0 toggle
+
+# SCREENSHOTS
+#############
+
+# Scrot
+Print
+    scrot
+
+# Gnome-Screenshot
+shift + Print
+      gnome-screenshot -i
+
 # ALT KEYBINDS 
 ##############
-
-# Audio mixer
-alt + a
-    pavucontrol
 
 # Browser
 alt + b
@@ -42,21 +71,3 @@ alt + x
 # Terminal Emulator
 alt + Return
     termite
-
-# RELOAD
-########
-
-# Reload sxhkd:
-alt + shift + s
-      pkill -USR1 -x sxhkd
-
-# SCREENSHOTS
-#############
-
-# Scrot
-Print
-    scrot
-
-# Gnome-Screenshot
-shift + Print
-      gnome-screenshot -i
