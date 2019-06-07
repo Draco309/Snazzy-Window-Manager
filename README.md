@@ -25,7 +25,7 @@ A. I made the following changes, in the following order.
 
 Q. What programs do I need to have pre-installed to build SWM?
 
-A. Make sure that you already have the following on your system : libx11, libxft, libxinerama, git, st, dmenu, nitrogen, compton, sxhkd. That's not an exhaustive list, but it should suffice.
+A. Make sure that you already have the following on your system : libx11, libxft, libxinerama, git, st, dmenu, nitrogen, compton, sxhkd and xfce4-volumed-pulse. That's not an exhaustive list, but it should suffice.
 
 Q. What files need to go where and do I need root privileges to do that?
 
