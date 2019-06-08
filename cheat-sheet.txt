@@ -19,7 +19,7 @@
 	  Super                   F2			quit swm session
 
 	  Super                   Return		spawn st
-	  Super|Shift             Return		move window from stack to master
+	  Super                   m      		move window from stack to master
 		
 	  Super                   j			focus window clockwise
 	  Super                   k			focus window counterclockwise
