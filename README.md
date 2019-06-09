@@ -17,7 +17,7 @@ A. I made the following changes, in the following order.
 	3. Added the autostart.sh file to the home folder.
 	4. Added the sxhkdrc file to ~/.config/sxhkd/ for the Simple X Hotkey Daemon.
 	5. Added the compton.conf file to ~/.config/compton/ for compositing.
-	6. Changed the layout icons and the bar colour scheme slightly.
+	6. Changed the layout icons and the bar colour scheme.
 	7. Removed all the functionality that I didn't need from DWM.
 	8. Remapped the remaining keybdinds to make them shorter or more ergonomic.
 	9. Rewrote the Makefile for SWM to rename the application and to avoid clashing with DWM installs.
