@@ -14,6 +14,9 @@
 
 	  Super			  {1...9}		switch to numbered view
           Super|Shift		  {1...9}               move window to numbered view
+	  
+	  Super                   v                     view all windows
+          Super                   t                     tag all views with this window
 
 	  Super                   q			quit focused window
 	  Super                   F2			quit swm session
