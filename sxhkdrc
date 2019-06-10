@@ -46,7 +46,7 @@ alt + f
 
 # Hotkey Cheat Sheet
 alt + h
-    gedit /home/user/swm/cheat-sheet.txt
+    gedit /home/user/Snazzy-Window-Manager/cheat-sheet.txt
 
 # Nitrogen
 alt + n
@@ -55,10 +55,6 @@ alt + n
 # Pamac-manager
 alt + p
     pamac-manager
-
-# Spotify
-alt + s
-    spotify
 
 # Text editor
 alt + t
