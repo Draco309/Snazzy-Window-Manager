@@ -52,6 +52,10 @@ alt + h
 alt + n
     nitrogen
 
+# Pamac-manager
+alt + p
+    pamac-manager
+
 # Spotify
 alt + s
     spotify
