@@ -2,6 +2,9 @@
 
 # ~/autostart.sh
 
+# Required for use of pamac-manager
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
 # Compositor
 compton --config ~/.config/compton/compton.conf &
 
