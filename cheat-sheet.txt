@@ -54,6 +54,7 @@
 
 	  Alt			  b			Chromium browswer
 	  Alt			  f			Pcmanfm file manager
+	  Alt                     p                     Pamac-manager
 
 	  Alt			  n			Nitrogen wallpaper switcher
 	  Alt 			  s			Spotify desktop app
