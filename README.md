@@ -31,7 +31,7 @@ Q. What files need to go where and do I need root privileges to do that?
 
 A. You will almost certainly need root privileges for /usr/share/xsessions/. Look up how to copy files using "sudo cp" in the terminal online if you're not already familiar with how to do that.
 
-Where root privileges are not required, simply use a graphical or terminal based file manger to move them to the correct folder. Once you have done that, don't forget to make ALL SCRIPTS EXECUTABLE. Once again, look up how to do that if you don't know how.
+Where root privileges are not required, simply use a graphical or terminal based file manger to move them to the correct folder. After you have done that, make all scripts executable. Once again, a quick internet search will tell you how to do that if you'e not familiar with the command line.
 
 Note that the config.def.h and config.h are identical to begin with.
 
