@@ -55,7 +55,7 @@
 
 	  *************     These can be edited in ~/.config/sxhkd/sxhkdrc     ************************
 
-	  Alt			  b			Chromium browswer
+	  Alt			  b			Firefox Developer Edition browswer
 	  Alt			  f			Pcmanfm file manager
 	  Alt                     p                     Pamac-manager
 
