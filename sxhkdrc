@@ -38,7 +38,7 @@ shift + Print
 
 # Browser
 alt + b
-    chromium
+    firefox-developer-edition
 
 # File Manager
 alt + f
