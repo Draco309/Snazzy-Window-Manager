@@ -91,7 +91,7 @@ A. The colour schemes for st and swm itself are defined in their respective conf
 
 Q. How do I change the colour scheme in swm?
 
-A. By editing the hex values of col_gray1, col_gray2, col_gray3, col_gray4 and col_cyan in config.h.
+A. By editing the hex values of col_gray1, col_gray2, col_gray3, col_gray4 and col_cyan in config.h. Then recompiling swm, logging out and back in.
 
 Q. Why "Snazzy"?
 
