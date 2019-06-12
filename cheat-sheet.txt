@@ -11,6 +11,9 @@
 
 	  Super                   Space                 toggle tiled/floating layout
           Super			  Tab			toggle between current/last view
+	  
+	  Super                   Left mouse-click      Move floating window
+	  Super                   Right mouse-click     Resize floating window
 
 	  Super			  {1...9}		switch to numbered view
           Super|Shift		  {1...9}               move window to numbered view
