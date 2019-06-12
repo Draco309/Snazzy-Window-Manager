@@ -81,9 +81,17 @@ Q. What functions does SWM have and what are the keyinds for them?
 
 A. These are all listed in the cheat-sheet.txt file. With the default keybinds, press the Alt key and 'h' to open them in gedit.
 
-Q. How did you create the amber theme shown in the screenshots?
+Q. What is meant by the terms "master" and "stack" in the tiling layout?
+
+A. In SWM, the master window is on the left half of the screen and the stack is all the windows on the right. When new windows are spawned they become the new master window. Super + m swaps the master window with either the top of the stack (if the master window is focused) or with the focused window from the stack.
+
+Q. How did you create the amber colour scheme shown in the screenshots?
 
 A. The colour schemes for st and swm itself are defined in their respective config.h files. The colour scheme for firefox-developer-edition is obtained by using the firefox Gruvbox theme and by setting the hex colour codes used in the preferences menu. I use #f68516 for links, #dcdcdc for text and #282828 for the background. The GTK Arc-Gruvbox theme and the Numix icon themes (I use Sardi Mono Numix) are available as pkgbuilds from the AUR. The termite theme is included in my Dotfiles repo. For Gedit, I use the gruvbox-dark theme created by Gordon Chiam : https://github.com/gchiam
+
+Q. How do I change the colour scheme in swm?
+
+A. By editing the hex values of col_gray1, col_gray2, col_gray3, col_gray4 and col_cyan in config.h.
 
 Q. Why "Snazzy"?
 
