@@ -6,7 +6,7 @@ A highly opinionated fork of DWM : https://dwm.suckless.org/
 
 Q. Why did you fork DWM rather than make your own spin of it?
 
-A. Because I did more than just patch dwm and make minor aesthetic changes to the appearance of it. As soon as I started REMOVING functionality that I would never use in order to make the keybinds simpler and the codebase smaller, I knew that I couldn't continue to call my build "DWM". By forking it, you can now install SWM on your linux box and any existing DWM build on there won't be affected.
+A. Because I did more than just patch dwm and make minor aesthetic changes to the appearance of it. As soon as I started removing functionality that I would never use in order to make the keybinds simpler and the codebase smaller, I knew that I couldn't continue to call my build "DWM". By forking it, you can now install SWM on your linux box and any existing DWM build on there won't be affected.
 
 Q. What changes did you make to the default DWM build?
 
@@ -17,7 +17,7 @@ A. I made the following changes, in the following order.
 	3. Added the autostart.sh file to the home folder.
 	4. Added the sxhkdrc file to ~/.config/sxhkd/ for the Simple X Hotkey Daemon.
 	5. Added the compton.conf file to ~/.config/compton/ for compositing.
-	6. Changed the layout icons, colour scheme, gap sizes, etc.
+	6. Changed the layout icons, master/stack proportions, colour scheme, gap sizes, etc.
 	7. Removed all the functionality that I didn't need from DWM.
 	8. Remapped the remaining keybdinds to make them shorter or more ergonomic.
 	9. Rewrote the Makefile for SWM to rename the application and to avoid clashing with DWM installs.
@@ -66,6 +66,10 @@ The correct file paths are as follows:
 	~/swm/drw.c
 
 	~/swm/swm.c
+	
+Q. Can I start SWM from .xinit rather than a log-in manager?
+
+A. Yes, of course. To start SWM with the "startx" command, simply append "exec swm" to your ~/.xinitrc file.
 
 Q. How do I build SWM?
 
