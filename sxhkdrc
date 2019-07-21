@@ -12,11 +12,11 @@ alt + shift + s
 
 # Volume Up
 shift + Up
-      pactl -- set-sink-volume 0 +10%
+      pactl -- set-sink-volume 0 +5%
 
 # Volume Down
 shift + Down
-      pactl -- set-sink-volume 0 -10%
+      pactl -- set-sink-volume 0 -5%
 
 # Toggle Mute/Unmute
 F4
@@ -38,11 +38,11 @@ shift + Print
 
 # Browser
 alt + b
-    firefox-developer-edition
+    chromium
 
 # File Manager
 alt + f
-    pcmanfm
+    thunar
 
 # Hotkey Cheat Sheet
 alt + h
@@ -70,4 +70,4 @@ alt + x
 
 # Terminal Emulator
 alt + Return
-    termite
+    st
