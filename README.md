@@ -89,10 +89,6 @@ Q. What is meant by the terms "master" and "stack" in the tiling layout?
 
 A. In SWM, the master window is on the left half of the screen and the stack is all the windows on the right. When new windows are spawned they become the new master window. Super + m swaps the master window with either the top of the stack (if the master window is focused) or with the focused window from the stack.
 
-Q. How did you create the amber colour scheme shown in the screenshots?
-
-A. The colour schemes for st and swm itself are defined in their respective config.h files. The colour scheme for firefox-developer-edition is obtained by installing the Humble Gruvbox theme and by setting the hex colour codes used in the preferences menu. I use #f68516 for unvisited links, #878787 for visited links, #dcdcdc for text and #4c4c4c for the background. The GTK Arc-Gruvbox theme and the Numix icon themes (I use Sardi Mono Numix) are available as pkgbuilds from the AUR. The termite theme and Gedit themes are included in my Dotfiles repo.
-
 Q. How do I change the colour scheme in swm?
 
 A. By editing the hex values of col_gray1, col_gray2, col_gray3, col_gray4 and col_cyan in config.h. Then recompiling swm, logging out and back in.
