@@ -35,6 +35,8 @@ Where root privileges are not required, simply use a graphical or terminal based
 
 Note that the config.def.h and config.h are identical to begin with.
 
+DON'T FORGET TO MARK ALL DOTFILES AS EXECUTABLE.
+
 The correct file paths are as follows:
 
 	/usr/share/xsessions/swm.desktop
