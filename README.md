@@ -25,17 +25,17 @@ A. I made the following changes, in the following order.
 
 Q. What programs do I need to have pre-installed to build SWM?
 
-A. Make sure that you already have the following on your system : libx11, libxft, libxinerama, git, st, dmenu, nitrogen, compton, sxhkd and xfce4-volumed-pulse. That's not an exhaustive list, but it should suffice.
+A. Make sure that you already have the following on your system : Arc-Gruvbox theme, libx11, libxft, libxinerama, git, st, dmenu, nitrogen, compton, sxhkd and xfce4-volumed-pulse. That's not an exhaustive list, but it should suffice.
 
 Q. What files need to go where and do I need root privileges to do that?
 
 A. You will almost certainly need root privileges for /usr/share/xsessions/. Look up how to copy files using "sudo cp" in the terminal online if you're not already familiar with how to do that.
 
-Where root privileges are not required, simply use a graphical or terminal based file manger to move them to the correct folder. After you have done that, make all scripts executable. Once again, a quick internet search will tell you how to do that if you'e not familiar with the command line.
+Where root privileges are not required, simply use a graphical or terminal based file manger to move them to the correct folder. After you have done that, MAKE ALL SCRIPTS EXECUTABLE.
+
+That can be done easily with a graphical file manger or with the command line.
 
 Note that the config.def.h and config.h are identical to begin with.
-
-DON'T FORGET TO MARK ALL DOTFILES AS EXECUTABLE.
 
 The correct file paths are as follows:
 
@@ -77,9 +77,9 @@ Q. How do I build SWM?
 
 A. Once the correct files are in the correct folders and the shell scripts have been made executable, enter the following commands in the terminal.
 
-	~ $ cd swm
+	~ $ cd Snazzy-Window-Manager
 
-	~/swm $ sudo make clean install
+	~/Snazzy-Window-Manager $ sudo make clean install
 
 Enter your password as prompted and swm will be installed in /usr/local/bin/.
 
