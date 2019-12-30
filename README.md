@@ -33,8 +33,6 @@ A. You will almost certainly need root privileges for /usr/share/xsessions/. Loo
 
 Where root privileges are not required, simply use a graphical or terminal based file manger to move them to the correct folder. After you have done that, MAKE ALL SCRIPTS EXECUTABLE.
 
-That can be done easily with a graphical file manger or with the command line.
-
 Note that the config.def.h and config.h are identical to begin with.
 
 The correct file paths are as follows:
