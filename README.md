@@ -1,8 +1,12 @@
 # Snazzy Window Manager (SWM)
 
-A highly opinionated fork of DWM : https://dwm.suckless.org/
+An opinionated, gruvbox-themed fork of DWM for Arcolinux: https://dwm.suckless.org/
 
 # FAQs
+
+Q. Will SWM compile on other Linux distros?
+
+A. It might. But dependencies might be required or settings changed for that to work.
 
 Q. Why did you fork DWM rather than make your own spin of it?
 
